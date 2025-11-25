@@ -99,7 +99,7 @@ function App() {
             <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl border-2 border-gold border-opacity-30 hover:border-opacity-100 transition-all duration-300 hover:transform hover:scale-105 shadow-lg overflow-hidden">
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/3993324/pexels-photo-3993324.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2"
+                  src="https://i.imgur.com/wcRVNW9.jpeg"
                   alt="Design de Sobrancelhas"
                   className="w-full h-full object-cover"
                 />
