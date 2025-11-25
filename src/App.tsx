@@ -1,4 +1,4 @@
-import { Sparkles, Phone, Instagram, MapPin, Clock, Star } from 'lucide-react';
+import { Sparkles, Phone, Instagram, MapPin, Clock, Star, MessageCircle } from 'lucide-react';
 
 function App() {
   return (
@@ -366,8 +366,8 @@ function App() {
             <a href="https://www.instagram.com/saraborgesstudio/" target="_blank" rel="noopener noreferrer" className="text-gold hover:opacity-70 transition-opacity duration-300">
               <Instagram className="w-6 h-6" />
             </a>
-            <a href="#" className="text-gold hover:opacity-70 transition-opacity duration-300">
-              <Phone className="w-6 h-6" />
+            <a href="https://api.whatsapp.com/send?phone=558799692169" target="_blank" rel="noopener noreferrer" className="text-gold hover:opacity-70 transition-opacity duration-300">
+              <MessageCircle className="w-6 h-6" />
             </a>
           </div>
           <div className="border-t border-rose-100 pt-8">
