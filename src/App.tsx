@@ -96,28 +96,38 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gradient-to-br from-pink-50 to-rose-50 p-8 rounded-2xl border-2 border-gold border-opacity-30 hover:border-opacity-100 transition-all duration-300 hover:transform hover:scale-105 shadow-lg">
-              <div className="w-16 h-16 bg-gold bg-opacity-20 rounded-full flex items-center justify-center mb-6">
-                <Sparkles className="w-8 h-8 text-gold" />
+            <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl border-2 border-gold border-opacity-30 hover:border-opacity-100 transition-all duration-300 hover:transform hover:scale-105 shadow-lg overflow-hidden">
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/3993324/pexels-photo-3993324.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2"
+                  alt="Design de Sobrancelhas"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-pink-50 to-transparent opacity-40"></div>
               </div>
-              <h3 className="text-3xl font-bold mb-4 text-gold">Design de Sobrancelhas</h3>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                Modelagem personalizada com técnicas de visagismo para realçar sua beleza natural.
-              </p>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-gold rounded-full"></div>
-                  Análise facial completa
-                </li>
-                <li className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-gold rounded-full"></div>
-                  Design sob medida
-                </li>
-                <li className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-gold rounded-full"></div>
-                  Produtos premium
-                </li>
-              </ul>
+              <div className="p-8">
+                <div className="w-16 h-16 bg-gold bg-opacity-20 rounded-full flex items-center justify-center mb-6">
+                  <Sparkles className="w-8 h-8 text-gold" />
+                </div>
+                <h3 className="text-3xl font-bold mb-4 text-gold">Design de Sobrancelhas</h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Modelagem personalizada com técnicas de visagismo para realçar sua beleza natural.
+                </p>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-gold rounded-full"></div>
+                    Análise facial completa
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-gold rounded-full"></div>
+                    Design sob medida
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-gold rounded-full"></div>
+                    Produtos premium
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div className="bg-gradient-to-br from-pink-50 to-rose-50 p-8 rounded-2xl border-2 border-gold border-opacity-30 hover:border-opacity-100 transition-all duration-300 hover:transform hover:scale-105 shadow-lg">
